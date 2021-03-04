@@ -192,7 +192,11 @@ $\rightarrow$ to start with: the correct measurement of trust matters!
 
 - two stages analogue to our research questions (established measures vs. new situative measures)
 - overall 12 questions per respondent
-  - 10 substantial questions: <font size="3"> most people, people first time, total stranger first time, total stranger situations 1-7 </font>
+  - 10 substantial questions: <font size="3"> 
+      - most people</font> <font size="3"> 
+      - people first time </font> <font size="3"> 
+      - total stranger first time </font> <font size="3"> 
+      - total stranger situations 1-7 </font>
   - 2 probing questions (written or audio format)<font size="3"> 
       - In answering the last question, what came to your mind? There are no right or wrong answers. We just want you to tell us everything that came to your mind as you answered the question.</font><font size="3"> 
       - Please describe what you associate with the term “most people/ people you meet for the first time / total stranger you meet for the first time" (in the last question). 
