@@ -145,14 +145,14 @@ $\rightarrow$ to start with: the correct measurement of trust matters!
 .cyan[Solutions?] 
 - new measures that are based on a clear conception of trust
   - previously: trust as a one-part relationship; .cyan[A trusts] (e.g., most people question) 
-  - now: trust as a three-part relationship: .cyan[A trusts B with X] (cf. Bauer and Freitag 2018, Gambetta 1988, Hardin 2002, Levi et al. 2005, Robbins 2016)
+  - now: trust as a three-part relationship: .cyan[A trusts B with X] (cf. Bauer and Freitag 2018, Gambetta 1988, Hardin 2002, Cook et al. 2005, Robbins 2016)
 - .cyan[asking for specific strangers and specific matters!]
 
 ---
 # Background: Generalized Trust in Surveys
 
 - Recent advancements
-  - trust in .cyan["strangers"] (Freitag & Bauer 2016; Freitag & Traunmüller 2009; Naef & Schupp 2009); .cyan[people from “your local area”] or .cyan[“your neighborhood”] (Sturgis & Smith 2010) and .cyan[“people you meet for the first time”] (Delhey et al. 2011; Newton & Zmerli 2011; Torpe & Lolle 2011)
+  - trust in .cyan["strangers"] (Freitag & Bauer 2018; Freitag & Traunmüller 2009; Naef & Schupp 2009); .cyan[people from “your local area”] or .cyan[“your neighborhood”] (Sturgis & Smith 2010) and .cyan[“people you meet for the first time”] (Delhey et al. 2011; Newton & Zmerli 2011; Torpe & Lolle 2011)
 
 - “milestone”: .cyan[Imaginary Stranger Trust (IST) scale (Robbins 2019, 2020)]
   - new measures of generalized trust for .cyan[trust towards a total stranger in] a series of .cyan[four different situations]
@@ -192,7 +192,7 @@ $\rightarrow$ to start with: the correct measurement of trust matters!
 
 - two stages analogue to our research questions (established measures vs. new situative measures)
 - overall 12 questions per respondent
-  - 10 substantial questions: <font size="3"> 
+  - 10 substantial questions <font size="3"> 
       - most people</font> <font size="3"> 
       - people first time </font> <font size="3"> 
       - total stranger first time </font> <font size="3"> 
@@ -218,7 +218,7 @@ knitr::include_graphics("experimental_procedure.png")
 - .cyan[latent dirichlet allocation (LDA)] = one popular topic modeling technique
   - LDA imagines a fixed set of topics
   - each topic is characterized by a distribution over words
-  - goal: to assign each document (e.g., tweet, survey answer) as a mixture over latent topics
+  - goal: to assign each document (e.g., tweet, open-ended survey answer) as a mixture over latent topics
 ]
 
 .pull-right[
@@ -315,6 +315,43 @@ knitr::include_graphics("topic-models-Blei.png")
 
 ---
 # References
+
+<font size="2">
+
+Algan, Y., and P. Cahuc. 2010. “Inherited Trust and Growth.” The American Economic Review 100(5):2060–92.
+
+Bauer, P. C., and M. Freitag. 2018. “Measuring Trust.” Pp. 1–27 in The Oxford Handbook of Social and Political Trust, edited by E. M. Uslaner. Oxford University Press.
+
+Bjørnskov, C. 2012. “How Does Social Trust Affect Economic Growth?” Southern Economic Journal 78(4):1346–68.
+
+Blei, D. M., A. Y. Ng, and M. I. Jordan. 2003. “Latent Dirichlet Allocation.” The Journal of Machine Learning Research 3:993–1022.
+
+Cook, Karen S., Russell Hardin, and Margaret Levi. 2005. Cooperation Without Trust? Russell Sage Foundation.
+
+Freitag, M., and R. Traunmüller. 2009. “Spheres of Trust: An Empirical Analysis of the Foundations of Particularised and Generalised Trust.” European Journal of Political Research 48(6):782–803.
+
+Fukuyama, F. 1995. Trust: The Social Virtues and the Creation of Prosperity. Free Press.
+
+Gambetta, D. 1988. “Can We Trust Trust?” Pp. 213–37 in Trust: Making and Breaking Cooperative Relations, edited by D. Gambetta.
+
+Hardin, R. 2002. Trust and Trustworthiness. Russell Sage Foundation.
+
+Knack, S., and P. Keefer. 1997. “Does Social Capital Have an Economic Payoff? A Cross-Country Investigation.” The Quarterly Journal of Economics 112(4):1251–88.
+
+LaPorta et al. 1997. “Trust in Large Organizations.” American Economic Review Papers and Proceedings 87(2):333–38.
+
+Naef, M., and J. Schupp. 2009. “Measuring Trust: Experiments and Surveys in Contrast and Combination.”
+
+Putnam, R. D. 2000. Bowling Alone: The Collapse and Revival of American Community. New York: Simon & Schuster.
+
+Putnam, R. D. 1992. Making Democracy Work: Civic Traditions in Modern Italy. Princeton University Press.
+
+Robbins, B. G. 2020. “An Empirical Comparison of Four Generalized Trust Scales: Test-Retest Reliability, Measurement Invariance, Predictive Validity, and Replicability.”.
+
+Robbins, B. G. 2019. “Measuring Generalized Trust: Two New Approaches.”
+Sociological Methods & Research.
+
+Sturgis, P., and P. Smith. 2010. “Assessing the Validity of Generalized Trust Questions: What Kind of Trust Are We Measuring?” International Journal of Public Opinion Research 22(1):74–92.
 
 
 
