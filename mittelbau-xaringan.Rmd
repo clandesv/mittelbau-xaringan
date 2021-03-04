@@ -1,0 +1,318 @@
+---
+title: "The validity of trust survey measures"
+subtitle: "Cross-situational trust as an alternative to generalized trust"
+author:  
+  <table class="authors">
+    <tbody>
+      <tr>
+        <td>Camille Landesvatter</td>
+        <td>Dr. Paul C. Bauer</td>
+      </tr>
+      <tr>
+        <td>.font75[Mannheim Centre for European Research (MZES), University of Mannheim]</td>
+        <td>.font75[Mannheim Centre for European Research (MZES), University of Mannheim]</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="contact">
+    <tbody>
+      <tr>
+        <td>`r icon::fa("envelope")` [`camille.landesvatter@mzes.uni-mannheim.de`](mailto:camille.landesvatter@mzes.uni-mannheim.de)</td>
+        <td>`r icon::fa("envelope")` [`mail@paulcbauer.eu`](mailto:mail@paulcbauer.eu)</td>
+      </tr>
+    </tbody>
+  </table>
+  
+date: 
+  Mittelbaukolloquium, Mannheim <br /> `r format(Sys.Date(), format="%B %d, %Y")`
+  
+output: 
+  xaringan::moon_reader:
+    includes:
+      after_body: insert-logo.html
+    css:
+      - default
+      - mtheme2.css
+      - fonts_mtheme.css
+    nature: 
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: true
+      ratio: '16:9'
+      slideNumberFormat: "Slide %current%"
+    class: inverse, mline, center, middle
+
+---
+
+```{r setup, include=FALSE}
+## Save package names as a vector of strings
+pkgs <-
+  c("rmarkdown",
+    "knitr",
+    "dplyr",
+    "devtools",
+    "widgetframe",
+    "RefManageR",
+    "bibtex",
+    "plotly",
+    "xaringan")
+
+## Install uninstalled packages
+lapply(pkgs[!(pkgs %in% installed.packages())], install.packages)
+
+## Load all packages to library and adjust options
+lapply(pkgs, library, character.only = TRUE)
+
+## Devtools install
+if (!("icon" %in% installed.packages()))
+  devtools::install_github("ropenscilabs/icon")
+library(icon)
+
+## Global chunk options
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+options(scipen=999)
+options(htmltools.dir.version = FALSE)
+
+## RefManageR options
+BibOptions(
+  bib.style = "authoryear",
+  hyperlink = "to.bib",
+  style = "markdown",
+  max.names = 3L
+)
+```
+
+# Outline
+
+1. Why Trust?
+
+2. Background: Generalized Trust in Surveys
+
+3. Research Questions
+
+4. Data Collection and Experimental Procedure
+
+5. Methodological Approach
+
+5. Hypotheses
+
+6. Summary and Discussion
+
+---
+
+# Why Trust?
+
+<blockquote> “Other things being equal, people who trust their fellow citizens volunteer more often, contribute more to charity, participate more often in politics and community organizations, …, give blood more frequently, comply more fully with tax obligations, are more tolerant of minority views, … In short people who trust others are all-round good citizens” (Putnam 2000: 136f.). </blockquote>
+
+- .cyan[Social trust] as an important component of the .cyan[social capital concept]
+
+- Many other notewhile (micro and macro) outcomes of social trust: <font size="4"> 
+
+  - .cyan[Societal level]: improved performance and efficiency of public institutions (LaPorta et al. 1997; Putnam 1992), economic advantage and growth (Algan & Cahuc 2010; Bjørnskov 2012; Fukuyama 1995; Knack & Keefer 1997), more informal social exchange and (spontaneous) cooperation in general (Cook & Cooper 2003) 
+
+</font> 
+
+- .cyan[Why?] trust in others reduces “transaction costs”
+
+--
+
+- $\rightarrow$  social scientists aiming at understanding and explaining large and complex societies, need to address the issue of trust
+$\rightarrow$ to start with: the correct measurement of trust matters! 
+
+---
+
+# Background: Generalized Trust in Surveys 
+
+- .cyan[generalized trust] is trust in the generalized other (i.e., anonymous other) rather than trust towards persons one personally knows (.gold[e.g., thick trust, particular trust])
+
+- first measure of generalized trust (“most people”-trust question) appeared in a questionnaire from 1942
+  - “Generally speaking, would you say that most people can be trusted, or that you can’t be too careful in dealing with people?” (Office of Public Opinion Research 1942, Princeton University)
+  
+- different versions of this question were used in hundreds of studies and underlying surveys
+    - General Social Survey (GSS), World Values Survey (WVS), European Social Survey (ESS), American National Election Studies (ANES)
+
+---
+# Background: Generalized Trust in Surveys
+
+.cyan[Critique:]
+- vague question wording: “trusting most people” or “being careful” have  a  different  meaning  for  different  respondents
+    - e.g., who are “most people”? - strangers, friends, family?
+- unspecific wording leads to measurement inequivalence $\rightarrow$ incomparability of individual answers 
+
+.cyan[Solutions?] 
+- new measures that are based on a clear conception of trust
+  - previously: trust as a one-part relationship; .cyan[A trusts] (e.g., most people question) 
+  - now: trust as a three-part relationship: .cyan[A trusts B with X] (cf. Bauer and Freitag 2018, Gambetta 1988, Hardin 2002, Levi et al. 2005, Robbins 2016)
+- .cyan[asking for specific strangers and specific matters!]
+
+---
+# Background: Generalized Trust in Surveys
+
+- Recent advancements
+  - trust in .cyan["strangers"] (Freitag & Bauer 2016; Freitag & Traunmüller 2009; Naef & Schupp 2009); .cyan[people from “your local area”] or .cyan[“your neighborhood”] (Sturgis & Smith 2010) and .cyan[“people you meet for the first time”] (Delhey et al. 2011; Newton & Zmerli 2011; Torpe & Lolle 2011)
+
+- “milestone”: .cyan[Imaginary Stranger Trust (IST) scale (Robbins 2019, 2020)]
+  - new measures of generalized trust for .cyan[trust towards a total stranger in] a series of .cyan[four different situations]
+
+---
+
+# Research Questions
+
+- .cyan[(1) Are **standard measures of generalized trust** valid measures?]
+<font size="3"> 
+  - Generally speaking, would you say that most people can be trusted, or that you can’t be too careful in dealing with people? (*most people*)
+  
+  - How much do you trust people you meet for the first time? (*people first time*)
+  
+  - Imagine meeting a total stranger for the first time. Please identify how much you would trust this stranger. (*stranger first time*) 
+    
+</font>
+    
+- .cyan[(2) Does asking for a variety of **situative trust measures** rather than a single-item trust measure increase validity?] <font size="3"> 
+
+  - Imagine meeting a total stranger for the first time. Please identify how much you would trust this stranger for each of the following: (*stranger situations 1-7*)
+      - To keep a secret that is damaging to your reputation? (Robbins 2019)
+      - To repay a loan of one thousand dollars? (Robbins 2019)
+      - To look after a child, family member, or loved one while you are away? (Robbins 2019)
+      - To provide advice about how best to manage your money? (Robbins 2019)
+      - To watch your bags in an airport while you’re going to the bathroom?
+      - To return you a lost wallet or purse?
+      - To help you change a flat tire on your passenger car?  
+  
+</font>
+
+---
+
+# Data Collection
+
+- online, self-administered questionnaire
+
+- two stages analogue to our research questions (established measures vs. new situative measures)
+- overall 12 questions per respondent
+  - 10 substantial questions: <font size="3"> most people, people first time, total stranger first time, total stranger situations 1-7 </font>
+  - 2 probing questions (written or audio format)<font size="3"> 
+      - In answering the last question, what came to your mind? There are no right or wrong answers. We just want you to tell us everything that came to your mind as you answered the question.</font><font size="3"> 
+      - Please describe what you associate with the term “most people/ people you meet for the first time / total stranger you meet for the first time" (in the last question). 
+</font>
+
+---
+# Experimental Procedure
+
+```{r, out.width = "50%", fig.align='center', fig.cap='Fig. 1: Experimental Procedure. Order of single items within each stage are randomized.'}
+
+knitr::include_graphics("experimental_procedure.png")
+```
+
+---
+# Methodological Approach
+
+.pull-left[
+- .cyan[topic modeling] = refers to the task of identifying categories (i.e., topics) within a set of documents (e.g., tweets, open-ended survey answers)
+- .cyan[latent dirichlet allocation (LDA)] = one popular topic modeling technique
+  - LDA imagines a fixed set of topics
+  - each topic is characterized by a distribution over words
+  - goal: to assign each document (e.g., tweet, survey answer) as a mixture over latent topics
+]
+
+.pull-right[
+```{r, out.width = "70%", fig.align='center', fig.cap='Fig. 2: cf. Blei (2003); each color codes a different topic'}
+knitr::include_graphics("topic-models-Blei.png")
+```
+]
+
+
+---
+# Methodological Approach
+
+- Our data will be data retrieved from the probing questions (textual and transcripted audio)
+
+- $\rightarrow$ A lower variation of associations (reflected through a .cyan[lower number of topics and a narrower thematic range of topics]) when using a particular measure points to an .cyan[increased level of validity].
+
+---
+# Hypotheses: <font size="5"> Are standard measures of generalized trust valid measures? (RQ1) </font>
+
+  - H1a / H1b / H1c: Classifying respondents’ associations regarding .cyan[Measure 1 (“most people”) / Measure 2 (“people first time”)  / Measure 3 (“stranger first time”)] results in more than .cyan[6 topics].
+
+<font size="3"> 
+
+      1. people one personally knows (e.g., acquaintances)
+      
+      2. unknown others (people in general, strangers, etc.)
+      
+      3. collectives of people (e.g., fellow citizens, neighbors, etc.)
+      
+      4. specific groups of people (e.g. politicians, police, etc.).
+      
+      5. associations of concrete situations and personal experiences rather than persons
+      
+      6. associations that don't fit into any of those categories and answers like “don't know” (Sturgis & Smith 2010).
+  </font>
+
+---
+# Hypotheses: <font size="5"> Are standard measures of generalized trust valid measures? (RQ1) </font>
+
+  - H2a: The .cyan[number of associated topics decreases] going from .cyan[Measure 1 (“most people”), over Measure 2 (“people first time”) to Measure 3 (“stranger first time”)].
+  
+  - H2b: The .cyan[thematic range] of associated topics decreases going from .cyan[Measure 1 (“most people”), over Measure 2 (“people first time”) to Measure 3 (“stranger first time”)].
+  
+  - $\rightarrow$ Put differently: Increase in validity
+
+---
+
+# Hypotheses: <font size="5"> Does asking for a variety of situative trust measures rather than a single-item trust measure increase validity? (RQ2) </font>
+
+
+  - H3: There are statistically significant differences in trust-in-stranger measures across different situations (e.g., return a lost wallet, watch bags in an airport etc.). 
+  
+  - $\rightarrow$ situational character of trust 
+      
+---
+
+# Hypotheses: <font size="5"> Does asking for a variety of situative trust measures rather than a single-item trust measure increase validity? (RQ2) </font>
+
+  
+  - H4a: The .cyan[number of associated topics] is .cyan[lower] for trust in “strangers” .cyan[when survey measures include a description of situation]. $\rightarrow$ Increase in validity
+  
+  - H4b: The .cyan[range of associated topics] is .cyan[lower] for trust in “strangers” .cyan[when survey measures include a description of the situation]. $\rightarrow$ Increase in validity
+
+
+-  Confirmation of these expectations would justify using more refined, explicit trust-in-stranger measures in future surveys!
+
+---
+# Hypotheses: Cross-Situational Trust
+
+
+- Significant correlation of the average of the seven trust-in-stranger measures with the three measures of generalized trust (most people, people first time, stranger first time)
+
+- correlation however not necessarily all that high - indicating that “cross-situational trust” and "generalized trust" are distinctive phenomena
+
+
+---
+
+# Summary and Discussion
+
+- established measures of generalized trust are problematic (e.g., who are most people?”) and revisions are long overdue
+
+- new situative trust measures that specify the trustee (i.e., a total stranger) and the situation (e.g. airport scenario) $\rightarrow$ A trusts B with X
+
+- cross-situational trust as the average of trust assessments across different situations
+
+- .cyan[Next step]: data collection (pre-test)
+  
+--
+
+.cyan[**Thank you for your attention!**]
+
+
+.cyan[**Any comments, questions or suggestions are welcome!**]
+
+---
+# References
+
+
+
+
+
