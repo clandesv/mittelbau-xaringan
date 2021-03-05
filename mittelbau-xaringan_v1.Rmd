@@ -107,7 +107,9 @@ BibOptions(
 
 <blockquote> “Other things being equal, people who trust their fellow citizens volunteer more often, contribute more to charity, participate more often in politics and community organizations, …, give blood more frequently, comply more fully with tax obligations, are more tolerant of minority views, … In short people who trust others are all-round good citizens” (Putnam 2000: 136f.). </blockquote>
 
-- Many (micro and macro) outcomes of social trust: <font size="4"> 
+- .cyan[Social trust] as an important component of the .cyan[social capital concept]
+
+- Many other notewhile (micro and macro) outcomes of social trust: <font size="4"> 
 
   - .cyan[Societal level]: improved performance and efficiency of public institutions (LaPorta et al. 1997; Putnam 1992), economic advantage and growth (Algan & Cahuc 2010; Bjørnskov 2012; Fukuyama 1995; Knack & Keefer 1997), more informal social exchange and (spontaneous) cooperation in general (Cook & Cooper 2003) 
 
@@ -118,30 +120,39 @@ BibOptions(
 --
 
 - $\rightarrow$  social scientists aiming at understanding and explaining large and complex societies, need to address the issue of trust
-- $\rightarrow$ to start with: the correct measurement of trust matters! 
+$\rightarrow$ to start with: the correct measurement of trust matters! 
 
 ---
 
 # Background: Generalized Trust in Surveys 
 
-- first and most promiment measure of generalized trust (“most people”-trust question)
+- .cyan[generalized trust] is trust in the generalized other (i.e., anonymous other) rather than trust towards persons one personally knows (.gold[e.g., thick trust, particular trust])
+
+- first measure of generalized trust (“most people”-trust question) appeared in a questionnaire from 1942
   - “Generally speaking, would you say that most people can be trusted, or that you can’t be too careful in dealing with people?” (Office of Public Opinion Research 1942, Princeton University)
   
-- General Social Survey (GSS), World Values Survey (WVS), European Social Survey (ESS), American National Election Studies (ANES)
+- different versions of this question were used in hundreds of studies and underlying surveys
+    - General Social Survey (GSS), World Values Survey (WVS), European Social Survey (ESS), American National Election Studies (ANES)
+
+---
+# Background: Generalized Trust in Surveys
 
 .cyan[Critique:]
 - vague question wording: “trusting most people” or “being careful” have  a  different  meaning  for  different  respondents
     - e.g., who are “most people”? - strangers, friends, family?
 - unspecific wording leads to measurement inequivalence $\rightarrow$ incomparability of individual answers 
 
----
-# Background: Generalized Trust in Surveys
-
 .cyan[Solutions?] 
 - new measures that are based on a clear conception of trust
   - previously: trust as a one-part relationship; .cyan[A trusts] (e.g., most people question) 
   - now: trust as a three-part relationship: .cyan[A trusts B with X] (cf. Bauer and Freitag 2018, Gambetta 1988, Hardin 2002, Cook et al. 2005, Robbins 2016)
 - .cyan[asking for specific strangers and specific matters!]
+
+---
+# Background: Generalized Trust in Surveys
+
+- Recent advancements
+  - trust in .cyan["strangers"] (Freitag & Bauer 2018; Freitag & Traunmüller 2009; Naef & Schupp 2009); .cyan[people from “your local area”] or .cyan[“your neighborhood”] (Sturgis & Smith 2010) and .cyan[“people you meet for the first time”] (Delhey et al. 2011; Newton & Zmerli 2011; Torpe & Lolle 2011)
 
 - “milestone”: .cyan[Imaginary Stranger Trust (IST) scale (Robbins 2019, 2020)]
   - new measures of generalized trust for .cyan[trust towards a total stranger in] a series of .cyan[four different situations]
@@ -222,7 +233,7 @@ knitr::include_graphics("topic-models-Blei.png")
 
 - Our data will be data retrieved from the probing questions (textual and transcripted audio)
 
-- $\rightarrow$ A lower variation of associations (reflected through a .cyan[**lower number of topics** and a narrower thematic range of topics]) when using a particular measure points to an .cyan[increased level of validity].
+- $\rightarrow$ A lower variation of associations (reflected through a .cyan[lower number of topics and a narrower thematic range of topics]) when using a particular measure points to an .cyan[increased level of validity].
 
 ---
 # Hypotheses: <font size="5"> Are standard measures of generalized trust valid measures? (RQ1) </font>
@@ -247,7 +258,9 @@ knitr::include_graphics("topic-models-Blei.png")
 ---
 # Hypotheses: <font size="5"> Are standard measures of generalized trust valid measures? (RQ1) </font>
 
-  - H2: The .cyan[number of associated topics decreases] going from .cyan[Measure 1 (“most people”), over Measure 2 (“people first time”) to Measure 3 (“stranger first time”)].
+  - H2a: The .cyan[number of associated topics decreases] going from .cyan[Measure 1 (“most people”), over Measure 2 (“people first time”) to Measure 3 (“stranger first time”)].
+  
+  - H2b: The .cyan[thematic range] of associated topics decreases going from .cyan[Measure 1 (“most people”), over Measure 2 (“people first time”) to Measure 3 (“stranger first time”)].
   
   - $\rightarrow$ Put differently: Increase in validity
 
@@ -263,10 +276,14 @@ knitr::include_graphics("topic-models-Blei.png")
 ---
 
 # Hypotheses: <font size="5"> Does asking for a variety of situative trust measures rather than a single-item trust measure increase validity? (RQ2) </font>
-  
-  - H4: The .cyan[number of associated topics] is .cyan[lower] for trust in “strangers” .cyan[when survey measures include a description of situation]. $\rightarrow$ Increase in validity
 
--  Confirmation of H4 would justify using more refined, explicit trust-in-stranger measures in future surveys!
+  
+  - H4a: The .cyan[number of associated topics] is .cyan[lower] for trust in “strangers” .cyan[when survey measures include a description of situation]. $\rightarrow$ Increase in validity
+  
+  - H4b: The .cyan[range of associated topics] is .cyan[lower] for trust in “strangers” .cyan[when survey measures include a description of the situation]. $\rightarrow$ Increase in validity
+
+
+-  Confirmation of these expectations would justify using more refined, explicit trust-in-stranger measures in future surveys!
 
 ---
 # Hypotheses: Cross-Situational Trust
@@ -283,7 +300,7 @@ knitr::include_graphics("topic-models-Blei.png")
 
 - established measures of generalized trust are problematic (e.g., who are most people?”) and revisions are long overdue
 
-- new situative trust measures that asks for specific strangers (i.e., a total stranger) and specific matters (e.g. airport scenario) $\rightarrow$ A trusts B with X
+- new situative trust measures that specify the trustee (i.e., a total stranger) and the situation (e.g. airport scenario) $\rightarrow$ A trusts B with X
 
 - cross-situational trust as the average of trust assessments across different situations
 
