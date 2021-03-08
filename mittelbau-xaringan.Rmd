@@ -105,7 +105,7 @@ BibOptions(
 
 # Why Trust?
 
-<blockquote> “Other things being equal, people who trust their fellow citizens volunteer more often, contribute more to charity, participate more often in politics and community organizations, …, give blood more frequently, comply more fully with tax obligations, are more tolerant of minority views, … In short people who trust others are all-round good citizens” (Putnam 2000: 136f.). </blockquote>
+- <blockquote> “Other things being equal, people who trust their fellow citizens volunteer more often, contribute more to charity, participate more often in politics and community organizations, …, give blood more frequently, comply more fully with tax obligations, are more tolerant of minority views, … In short people who trust others are all-round good citizens” (Putnam 2000: 136f.). </blockquote>
 
 - Many (micro and macro) outcomes of social trust: <font size="4"> 
 
@@ -124,7 +124,7 @@ BibOptions(
 
 # Background: Generalized Trust in Surveys 
 
-- first and most promiment measure of generalized trust (“most people”-trust question)
+- frequently used measure of generalized trust (“most people”-trust question)
 <blockquote>“Generally speaking, would you say that most people can be trusted, or that you can’t be too careful in dealing with people?” (Office of Public Opinion Research 1942, Princeton University)</blockquote>
   
 - General Social Survey (GSS), World Values Survey (WVS), European Social Survey (ESS), American National Election Studies (ANES)
@@ -140,8 +140,8 @@ BibOptions(
 .cyan[Solutions?] 
 - .cyan[asking for specific strangers and specific matters!]
 - new measures that are based on a clear conception of trust
+  - trust as a three-part relationship: .cyan[A trusts B with X] <font size="3"> (cf. Bauer and Freitag 2018, Gambetta 1988, Hardin 2002, Cook et al. 2005, Robbins 2016) </font size> 
   - previously: trust as a one-part relationship; .cyan[A trusts] (e.g., most people question) 
-  - now: trust as a three-part relationship: .cyan[A trusts B with X] (cf. Bauer and Freitag 2018, Gambetta 1988, Hardin 2002, Cook et al. 2005, Robbins 2016)
 
 - “milestone”: .cyan[Imaginary Stranger Trust (IST) scale (Robbins 2019, 2020)]
   - new measures of generalized trust for .cyan[trust towards a total stranger in] a series of .cyan[four different situations]
@@ -203,11 +203,11 @@ knitr::include_graphics("experimental_procedure.png")
 # Methodological Approach
 
 .pull-left[
-- .cyan[topic modeling] = refers to the task of identifying categories (i.e., topics) within a set of documents (e.g., tweets, open-ended survey answers)
+- .cyan[topic modeling] = refers to the task of identifying categories (i.e., topics) within textual data (e.g., tweets, open-ended survey answers)
+
 - .cyan[latent dirichlet allocation (LDA)] = one popular topic modeling technique
   - LDA imagines a fixed set of topics
-  - each topic is characterized by a distribution over words
-  - goal: to assign each document (e.g., tweet, open-ended survey answer) as a mixture over latent topics
+  - goal: to assign each text as a mixture over these latent topics
 ]
 
 .pull-right[
@@ -259,6 +259,7 @@ knitr::include_graphics("topic-models-Blei.png")
   - H3: There are statistically significant differences in trust-in-stranger measures across different situations (e.g., return a lost wallet, watch bags in an airport etc.). 
   
   - $\rightarrow$ situational character of trust 
+  - $\rightarrow$ would allow computing cross-situational trust (i.e. average of the seven trust-in-stranger measures)
       
 ---
 
@@ -266,16 +267,7 @@ knitr::include_graphics("topic-models-Blei.png")
   
   - H4: The .cyan[number of associated topics] is .cyan[lower] for trust in “strangers” .cyan[when survey measures include a description of situation]. $\rightarrow$ Increase in validity
 
--  Confirmation of H4 would justify using more refined, explicit trust-in-stranger measures in future surveys!
-
----
-# Hypotheses: Cross-Situational Trust
-
-
-- Significant correlation of the average of the seven trust-in-stranger measures with the three measures of generalized trust (most people, people first time, stranger first time)
-
-- correlation however not necessarily all that high - indicating that “cross-situational trust” and "generalized trust" are distinctive phenomena
-
+-  Justification of using more refined, explicit trust-in-stranger measures in future surveys!
 
 ---
 
