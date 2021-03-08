@@ -139,7 +139,7 @@ BibOptions(
 - .cyan[asking for specific strangers and specific matters!]
 - new measures that are based on a clear conception of trust:
   - previously: trust as a one-part relationship; .cyan[A trusts] (e.g., most people question) 
-  - new: trust as a three-part relationship; .cyan[A trusts B with X] 
+  - new: trust as a three-part relationship; .cyan[A trusts B to do X] 
 
 - “milestone”: .cyan[Imaginary Stranger Trust (IST) scale (Robbins 2019, 2020)]
   - new measures of generalized trust for .cyan[trust towards a total stranger in] a series of .cyan[four different situations]
@@ -272,7 +272,7 @@ knitr::include_graphics("topic-models-Blei.png")
 
 - established measures of generalized trust are problematic (e.g., who are most people?”) and revisions are long overdue
 
-- new situative trust measures that asks for specific strangers and specific matters (e.g. a total stranger in the airport scenario) $\rightarrow$ A trusts B with X
+- new situative trust measures that asks for specific strangers and specific matters (e.g. a total stranger in the airport scenario) $\rightarrow$ A trusts B to do X
 
 - cross-situational trust as the average of trust assessments across different situations
 
