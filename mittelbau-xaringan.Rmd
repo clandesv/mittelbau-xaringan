@@ -105,13 +105,11 @@ BibOptions(
 
 # Why Trust?
 
-- <blockquote> “Other things being equal, people who trust their fellow citizens volunteer more often, contribute more to charity, participate more often in politics and community organizations, …, give blood more frequently, comply more fully with tax obligations, are more tolerant of minority views, … In short people who trust others are all-round good citizens” (Putnam 2000: 136f.). </blockquote>
+- Social trust as a driver of many important outcome variables
 
-- Many (micro and macro) outcomes of social trust: <font size="4"> 
+  - .cyan[individual level]: well being and life satisfaction, physical health, voluntary work, participation in politics and community organizations, tolerance towards minority views, ... <font size="3"> <br>(Carl and Billari 2014, Helliwell and Wang 2011; Bekkers 2012, Putnam 2000) </font size> 
 
-  - .cyan[Societal level]: improved performance and efficiency of public institutions (LaPorta et al. 1997; Putnam 1992), economic advantage and growth (Algan & Cahuc 2010; Bjørnskov 2012; Fukuyama 1995; Knack & Keefer 1997), more informal social exchange and (spontaneous) cooperation in general (Cook & Cooper 2003) 
-
-</font> 
+  - .cyan[societal level]: improved performance and efficiency of public institutions, economic advantage and growth, informal social exchange, ... <font size="3"><br> (LaPorta et al. 1997, Putnam 1992, Algan & Cahuc 2010, Bjørnskov 2012, Fukuyama 1995, Knack & Keefer 1997)</font size>
 
 - .cyan[Why?] trust in others reduces “transaction costs”
 
@@ -124,7 +122,7 @@ BibOptions(
 
 # Background: Generalized Trust in Surveys 
 
-- frequently used measure of generalized trust (“most people”-trust question)
+- “Most People”-Trust Question
 <blockquote>“Generally speaking, would you say that most people can be trusted, or that you can’t be too careful in dealing with people?” (Office of Public Opinion Research 1942, Princeton University)</blockquote>
   
 - General Social Survey (GSS), World Values Survey (WVS), European Social Survey (ESS), American National Election Studies (ANES)
