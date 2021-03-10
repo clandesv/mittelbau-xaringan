@@ -150,17 +150,17 @@ BibOptions(
 
 - .cyan[(1) Are **standard measures of generalized trust** valid measures?]
 <font size="3"> 
-  - Generally speaking, would you say that most people can be trusted, or that you can’t be too careful in dealing with people? (*most people*)
+  - Generally speaking, would you say that .gold[most people] can be trusted, or that you can’t be too careful in dealing with people? (*most people*)
   
-  - How much do you trust people you meet for the first time? (*people first time*)
+  - How much do you trust .gold[people you meet for the first time]? (*people first time*)
   
-  - Imagine meeting a total stranger for the first time. Please identify how much you would trust this stranger. (*stranger first time*) 
+  - Imagine meeting a .gold[total stranger for the first time]. Please identify how much you would trust this stranger. (*stranger first time*) 
     
 </font>
     
 - .cyan[(2) Does asking for a variety of **situative trust measures** rather than a single-item trust measure increase validity?] <font size="3"> 
 
-  - Imagine meeting a total stranger for the first time. Please identify how much you would trust this stranger for each of the following: (*stranger situations 1-7*)
+  - Imagine meeting a .gold[total stranger for the first time]. Please identify how much you would trust this stranger for each of the following: (*stranger situations 1-7*)
       - To keep a secret that is damaging to your reputation? (Robbins 2019)
       - To repay a loan of one thousand dollars? (Robbins 2019)
       - To look after a child, family member, or loved one while you are away? (Robbins 2019)
@@ -251,7 +251,7 @@ knitr::include_graphics("topic-models-Blei.png")
 
 # Hypotheses
 
-  - H3: There are statistically significant differences in trust-in-stranger measures across different situations (e.g., return a lost wallet, watch bags in an airport etc.). 
+  - H3: There are statistically significant .cyan[differences] in trust-in-stranger measures .cyan[across different situations] (e.g., return a lost wallet, watch bags in an airport etc.). 
   
   - $\rightarrow$ situational character of trust 
   - $\rightarrow$ would allow computing cross-situational trust (i.e. average of the seven trust-in-stranger measures)
